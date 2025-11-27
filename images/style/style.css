@@ -45,6 +45,24 @@ margin: 0px 200px;
  }
   
 /* shared style */
+.ex-ed{
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+}
+
+.semi-20{
+  font-weight: 400px;
+  font-size: 20px;
+  color: #757575;
+}
+.regular-16{
+  font-weight: 400;
+  font-size: 16;
+  color: #757575;
+}
+
+
 .text-center{
   text-align: center;
 }
@@ -147,4 +165,19 @@ main{
   padding: 30px;
   box-shadow: 0px 6px 50px 0px rgb(240, 199, 150);
    border-radius: 5px;
+}
+ 
+
+/* resume style */
+
+.resume-contain{
+  display: flex;
+  gap: 24px;
+}
+.resume hr {
+  margin: 30px 5px;
+
+}
+.margin-tp{
+  margin-top: 50px;
 }
