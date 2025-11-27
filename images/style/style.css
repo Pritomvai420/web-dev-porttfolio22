@@ -45,6 +45,9 @@ margin: 0px 200px;
  }
   
 /* shared style */
+.text-center{
+  text-align: center;
+}
 
 
  .marry{
@@ -112,13 +115,15 @@ margin: 0px 200px;
 main{
   max-width: 1140px;
   margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
+
 }
 /* about style */
 .about{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
 }
 .about-items{
   display: flex;
@@ -131,4 +136,15 @@ main{
 .item-title{
   font-weight: 500;
   font-size: 20px;
+}
+/* skills section style */
+
+.skill-contain{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgb(240, 199, 150);
+   border-radius: 5px;
 }
