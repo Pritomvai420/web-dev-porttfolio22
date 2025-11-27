@@ -181,3 +181,33 @@ main{
 .margin-tp{
   margin-top: 50px;
 }
+
+/* fiiter style */
+footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"]{
+  height: 64px;
+  border-radius: 5px;
+  background-color:white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+footer input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
